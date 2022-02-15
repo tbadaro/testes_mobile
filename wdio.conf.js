@@ -1,20 +1,11 @@
-const { join } = require('path')
 const allure = require('allure-commandline')
 const video = require('wdio-video-reporter')
 
-exports.config = {
-    // hostname: 'localhost',
 
-    // path: '/wd/hub',
-    user: "tadeubadar_yclAW9",
-    key: "qXuQTzd7BVnymvr4BoPB",
+exports.config = {
+    user:  process.env.SECRET_id,
+    key: process.env.SECRET_key,
     services: ['browserstack'],
-    // port: 4723,
-    // services: [
-    //     ['appium', {
-    //         command : 'appium'
-    //     }]
-    // ],
     specs: [
         './test/specs/**/*.js'            
     ],
@@ -22,20 +13,13 @@ exports.config = {
     featureFlags: {
         specFiltering: true
     },
-    capabilities: [{
-        // "platformName": "Android",
+    capabilities: [{ 
         'app' : 'bs://b5f099f957cce74a36dba158c15a959b67d0d78c',  
         'device' : 'Samsung Galaxy S20 Plus',
         'os_version' : '10.0',   
         'project' : 'Projeto de cadastro de produto em Device Farm',
         'build' : '1',
-        'name': 'teste_cadastro'
-        // "platformVersion": "8.1",
-        // "deviceName": "ebac-qe",
-        // "automationName": "UiAutomator2",
-        // "app": join(process.cwd(), './app/android/loja-ebac.apk'),            
-        // "appWaitActivity": 'com.woocommerce.android.ui.login.LoginActivity'
-
+        'name': 'teste_cadastro' 
     }],
     waitForTimeout: 20000,
     mochaOpts: {
