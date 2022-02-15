@@ -1,0 +1,103 @@
+{
+  "uid" : "b2f1066371f1a716",
+  "name" : "should login with valid credentials",
+  "fullName" : "Access Admin Panel.should login with valid credentials",
+  "historyId" : "3ffecdf02786cc03fb4362403888cae4",
+  "time" : {
+    "start" : 1644883724414,
+    "stop" : 1644883808664,
+    "duration" : 84250
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'waitForExist' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'waitForExist' of undefined\n                    at ProductsScreen.shippingSettings (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\newProduct.screen.js:66:36)\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\login.spec.js:50:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'waitForExist' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'waitForExist' of undefined\n                    at ProductsScreen.shippingSettings (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\newProduct.screen.js:66:36)\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\login.spec.js:50:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5204825f8e2700aa",
+      "name" : "Execution video",
+      "source" : "5204825f8e2700aa.mp4",
+      "type" : "video/mp4",
+      "size" : 524336
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "samsung galaxy s20 plus-10.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be677a2f34d21c93",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForExist' of undefined",
+      "time" : {
+        "start" : 1644882509990,
+        "stop" : 1644882592167,
+        "duration" : 82177
+      }
+    }, {
+      "uid" : "8099e02ba7241497",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644453857854,
+        "stop" : 1644453885140,
+        "duration" : 27286
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b2f1066371f1a716.json",
+  "parameterValues" : [ "samsung galaxy s20 plus-10.0" ]
+}

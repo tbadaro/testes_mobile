@@ -1,0 +1,131 @@
+{
+  "uid" : "7412a313869efef6",
+  "name" : "should register a new product",
+  "fullName" : "Access Admin Panel.should register a new product",
+  "historyId" : "1fe6037065f76ca8e4c960db29cf177a",
+  "time" : {
+    "start" : 1644939925089,
+    "stop" : 1644940014918,
+    "duration" : 89829
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "samsung galaxy s20 plus-10.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "991d5017ed8930cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644903543822,
+        "stop" : 1644903628710,
+        "duration" : 84888
+      }
+    }, {
+      "uid" : "2130676cc58d4bca",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Regular price: R$120,00·\n                 Sale price: R$40,00·\n                 Sale dates:\"\n                Received string:    \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"",
+      "time" : {
+        "start" : 1644903079086,
+        "stop" : 1644903163787,
+        "duration" : 84701
+      }
+    }, {
+      "uid" : "ba93dd22945d2c2e",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Regular price: R$120,00 Sale price: R$40,00 Sale dates:\"\n                Received string:    \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"",
+      "time" : {
+        "start" : 1644902298206,
+        "stop" : 1644902382818,
+        "duration" : 84612
+      }
+    }, {
+      "uid" : "eadf95eaed0dec0",
+      "status" : "failed",
+      "statusDetails" : "Expect Test Product to have property value\n                \n                Expected: \"Test Product\"\n                Received: undefined",
+      "time" : {
+        "start" : 1644902025963,
+        "stop" : 1644902113255,
+        "duration" : 87292
+      }
+    }, {
+      "uid" : "8761040ae11f2fd6",
+      "status" : "failed",
+      "statusDetails" : "Expect Test Product to have text\n                \n                Expected: \"Test Product\"\n                Received: undefined",
+      "time" : {
+        "start" : 1644901847291,
+        "stop" : 1644901935567,
+        "duration" : 88276
+      }
+    }, {
+      "uid" : "adda085693ec2f1",
+      "status" : "failed",
+      "statusDetails" : "Expect Test Product to have text\n                \n                Expected: \"Test Product\"\n                Received: undefined",
+      "time" : {
+        "start" : 1644901605119,
+        "stop" : 1644901695381,
+        "duration" : 90262
+      }
+    }, {
+      "uid" : "667ad4070375f7ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644900794063,
+        "stop" : 1644900877953,
+        "duration" : 83890
+      }
+    }, {
+      "uid" : "342a0a618af7aa10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644900393273,
+        "stop" : 1644900490598,
+        "duration" : 97325
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7412a313869efef6.json",
+  "parameterValues" : [ "samsung galaxy s20 plus-10.0" ]
+}

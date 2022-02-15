@@ -1,0 +1,474 @@
+{
+  "uid" : "fee78ec57607241e",
+  "name" : "should login with valid credentials",
+  "fullName" : "Access Admin Panel.should login with valid credentials",
+  "historyId" : "953be6edc00131250e97b7fb1eadb36b",
+  "time" : {
+    "start" : 1644888755667,
+    "stop" : 1644888777005,
+    "duration" : 21338
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up",
+  "statusTrace" : "UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\n                    at UIA2Proxy.command (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\jsonwp-proxy\\proxy.js:274:13)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 45,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up",
+    "statusTrace" : "UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\n                    at UIA2Proxy.command (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\jsonwp-proxy\\proxy.js:274:13)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c4b9cab5570f274",
+      "name" : "Execution video",
+      "source" : "8c4b9cab5570f274.mp4",
+      "type" : "video/mp4",
+      "size" : 175
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "88fe0cddaaa7cb16",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForExist' of undefined",
+      "time" : {
+        "start" : 1644885722952,
+        "stop" : 1644885788453,
+        "duration" : 65501
+      }
+    }, {
+      "uid" : "ff0035a714b5f825",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForExist' of undefined",
+      "time" : {
+        "start" : 1644884934766,
+        "stop" : 1644884999131,
+        "duration" : 64365
+      }
+    }, {
+      "uid" : "616e81cddd877865",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForExist' of undefined",
+      "time" : {
+        "start" : 1644884538903,
+        "stop" : 1644884605027,
+        "duration" : 66124
+      }
+    }, {
+      "uid" : "96a5e6f1e87dc49c",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForExist' of undefined",
+      "time" : {
+        "start" : 1644884083337,
+        "stop" : 1644884148019,
+        "duration" : 64682
+      }
+    }, {
+      "uid" : "cd9afec947c7c4cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644603406620,
+        "stop" : 1644603473681,
+        "duration" : 67061
+      }
+    }, {
+      "uid" : "bf50661c0b323965",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644563948179,
+        "stop" : 1644564013778,
+        "duration" : 65599
+      }
+    }, {
+      "uid" : "b10732e11b99796a",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementSendKeys on element with selector \"android=new UiSelector().className(\"android.widget.EditText\").text(\"0\")\" because element wasn't found",
+      "time" : {
+        "start" : 1644563364785,
+        "stop" : 1644563441543,
+        "duration" : 76758
+      }
+    }, {
+      "uid" : "c76c68180b8d557",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"android=new UiSelector().className(\"android.widget.Switch\").text(\"Manage stock ON\")\" because element wasn't found",
+      "time" : {
+        "start" : 1644563212880,
+        "stop" : 1644563276016,
+        "duration" : 63136
+      }
+    }, {
+      "uid" : "784eb698151d1502",
+      "status" : "failed",
+      "statusDetails" : "Invalid CSS selector 'UiSelector().className(\"android.widget.Switch\").index(2)'. Reason: 'Error: Rule expected but \"(\" found.'",
+      "time" : {
+        "start" : 1644563010556,
+        "stop" : 1644563070505,
+        "duration" : 59949
+      }
+    }, {
+      "uid" : "7defb4841fefd378",
+      "status" : "failed",
+      "statusDetails" : "Invalid CSS selector 'UiSelector().className(\"android.widget.Switch\").text(\"Manage stock OFF\")'. Reason: 'Error: Rule expected but \"(\" found.'",
+      "time" : {
+        "start" : 1644562747247,
+        "stop" : 1644562807785,
+        "duration" : 60538
+      }
+    }, {
+      "uid" : "ac3595a8deb412e6",
+      "status" : "broken",
+      "statusDetails" : "element (\"android= new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Taxa Zero\")\") still not existing after 2000ms",
+      "time" : {
+        "start" : 1644555881227,
+        "stop" : 1644555940552,
+        "duration" : 59325
+      }
+    }, {
+      "uid" : "9f2327ef1acd90eb",
+      "status" : "broken",
+      "statusDetails" : "element (\"android= new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Shipping\")\") still not existing after 2000ms",
+      "time" : {
+        "start" : 1644554935627,
+        "stop" : 1644554993148,
+        "duration" : 57521
+      }
+    }, {
+      "uid" : "8f8577eb5771be3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644554809912,
+        "stop" : 1644554860444,
+        "duration" : 50532
+      }
+    }, {
+      "uid" : "beaa3f871757c657",
+      "status" : "broken",
+      "statusDetails" : "element (\"android= new UiSelector().className(\"android.widget.ImageButton\").text(\"From\")\") still not existing after 2000ms",
+      "time" : {
+        "start" : 1644554222859,
+        "stop" : 1644554268762,
+        "duration" : 45903
+      }
+    }, {
+      "uid" : "b76746cb9e309d68",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644554171130,
+        "stop" : 1644554206936,
+        "duration" : 35806
+      }
+    }, {
+      "uid" : "79738e9f833fc8b5",
+      "status" : "broken",
+      "statusDetails" : "element (\"android= new UiSelector().className(\"android.widget.ImageButton\").text(\"From\")\") still not existing after 2000ms",
+      "time" : {
+        "start" : 1644554051692,
+        "stop" : 1644554098228,
+        "duration" : 46536
+      }
+    }, {
+      "uid" : "aadc205f238bdf12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552476799,
+        "stop" : 1644552523460,
+        "duration" : 46661
+      }
+    }, {
+      "uid" : "cdd983fa05ab6d95",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"android= new UiSelector().className(\"android.widget.Button\").text(\"Ok\")\" because element wasn't found",
+      "time" : {
+        "start" : 1644552379383,
+        "stop" : 1644552430805,
+        "duration" : 51422
+      }
+    }, {
+      "uid" : "da0cdab90d6196ef",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"id:button1\" because element wasn't found",
+      "time" : {
+        "start" : 1644552139671,
+        "stop" : 1644552190464,
+        "duration" : 50793
+      }
+    }, {
+      "uid" : "11e3c7e71841156d",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementSendKeys on element with selector \"android.widget.EditText\" because element wasn't found",
+      "time" : {
+        "start" : 1644552113584,
+        "stop" : 1644552122882,
+        "duration" : 9298
+      }
+    }, {
+      "uid" : "ef05f870eaab5d21",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644552020544,
+        "stop" : 1644552055799,
+        "duration" : 35255
+      }
+    }, {
+      "uid" : "b853a37e042eb303",
+      "status" : "broken",
+      "statusDetails" : "elem[prop] is not a function",
+      "time" : {
+        "start" : 1644551279739,
+        "stop" : 1644551323226,
+        "duration" : 43487
+      }
+    }, {
+      "uid" : "f9e2222735901290",
+      "status" : "broken",
+      "statusDetails" : "newProductScreen.clickAddPrice is not a function",
+      "time" : {
+        "start" : 1644545976793,
+        "stop" : 1644546013212,
+        "duration" : 36419
+      }
+    }, {
+      "uid" : "fa80dbcc6ce228b6",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644545922717,
+        "stop" : 1644545958040,
+        "duration" : 35323
+      }
+    }, {
+      "uid" : "7ed15bb4a1288b1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644541140495,
+        "stop" : 1644541174978,
+        "duration" : 34483
+      }
+    }, {
+      "uid" : "3ced84afd9363004",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644540829411,
+        "stop" : 1644540864847,
+        "duration" : 35436
+      }
+    }, {
+      "uid" : "1047ce0f35883915",
+      "status" : "broken",
+      "statusDetails" : "element (\"android= new UiSelector().className(\"android.view.ViewGroup\").index(1).instance(0)\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644539534579,
+        "stop" : 1644539586869,
+        "duration" : 52290
+      }
+    }, {
+      "uid" : "eaa324637ad650f2",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found",
+      "time" : {
+        "start" : 1644539391002,
+        "stop" : 1644539396806,
+        "duration" : 5804
+      }
+    }, {
+      "uid" : "9ca21ffc3822c7cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644465144972,
+        "stop" : 1644465174151,
+        "duration" : 29179
+      }
+    }, {
+      "uid" : "f93ce0fe58d8756",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found",
+      "time" : {
+        "start" : 1644464875830,
+        "stop" : 1644464881604,
+        "duration" : 5774
+      }
+    }, {
+      "uid" : "52e96a82e8412f0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464461529,
+        "stop" : 1644464488312,
+        "duration" : 26783
+      }
+    }, {
+      "uid" : "a8c9e7ee987b1350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464120201,
+        "stop" : 1644464150934,
+        "duration" : 30733
+      }
+    }, {
+      "uid" : "28ab44e0f62a305a",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found",
+      "time" : {
+        "start" : 1644464112288,
+        "stop" : 1644464117890,
+        "duration" : 5602
+      }
+    }, {
+      "uid" : "ac2883d32844985d",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1644464051418,
+        "stop" : 1644464052350,
+        "duration" : 932
+      }
+    }, {
+      "uid" : "a02c82ce5dcfa75f",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found",
+      "time" : {
+        "start" : 1644463832157,
+        "stop" : 1644463837980,
+        "duration" : 5823
+      }
+    }, {
+      "uid" : "873632ddebe96a8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644380580914,
+        "stop" : 1644380607672,
+        "duration" : 26758
+      }
+    }, {
+      "uid" : "b83733ce6a666d48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644379816813,
+        "stop" : 1644379843893,
+        "duration" : 27080
+      }
+    }, {
+      "uid" : "36ae55ed6606b4b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644348936561,
+        "stop" : 1644348963066,
+        "duration" : 26505
+      }
+    }, {
+      "uid" : "9627fb3c2d6645e9",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644348360570,
+        "stop" : 1644348395700,
+        "duration" : 35130
+      }
+    }, {
+      "uid" : "796acd5a49529487",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644348187935,
+        "stop" : 1644348222918,
+        "duration" : 34983
+      }
+    }, {
+      "uid" : "f9ca98c3e6df30d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644348105313,
+        "stop" : 1644348132174,
+        "duration" : 26861
+      }
+    }, {
+      "uid" : "2764cd76565b72ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644294728846,
+        "stop" : 1644294756014,
+        "duration" : 27168
+      }
+    }, {
+      "uid" : "cc42c515944a552d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644294518723,
+        "stop" : 1644294545465,
+        "duration" : 26742
+      }
+    }, {
+      "uid" : "7f826a2738a60a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644294222979,
+        "stop" : 1644294248697,
+        "duration" : 25718
+      }
+    }, {
+      "uid" : "431ef8520b27f0fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644293585262,
+        "stop" : 1644293611026,
+        "duration" : 25764
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fee78ec57607241e.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}

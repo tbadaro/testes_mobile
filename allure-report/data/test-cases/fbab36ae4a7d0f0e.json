@@ -1,0 +1,98 @@
+{
+  "uid" : "fbab36ae4a7d0f0e",
+  "name" : "should register a new product",
+  "fullName" : "Resgistering a new product.should register a new product",
+  "historyId" : "26c11959ab11e6fe6deb304dc9e5eeac",
+  "time" : {
+    "start" : 1644539399028,
+    "stop" : 1644539431434,
+    "duration" : 32406
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "testClass",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b413c43f361d4365",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found",
+      "time" : {
+        "start" : 1644465136919,
+        "stop" : 1644465142717,
+        "duration" : 5798
+      }
+    }, {
+      "uid" : "f9b35727b8d97be0",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1644464937500,
+        "stop" : 1644464938314,
+        "duration" : 814
+      }
+    }, {
+      "uid" : "2a74174ea93780e2",
+      "status" : "broken",
+      "statusDetails" : "element (\"~Products\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644464883834,
+        "stop" : 1644464904608,
+        "duration" : 20774
+      }
+    }, {
+      "uid" : "6153de8a90964422",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found",
+      "time" : {
+        "start" : 1644464453624,
+        "stop" : 1644464459431,
+        "duration" : 5807
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbab36ae4a7d0f0e.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}

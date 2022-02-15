@@ -1,0 +1,80 @@
+{
+  "uid" : "5dae839fe176ec18",
+  "name" : "should register a new product",
+  "fullName" : "Access Admin Panel.should register a new product",
+  "historyId" : "48a61d31c49333be3717fb8335a32d32",
+  "time" : {
+    "start" : 1644937500934,
+    "stop" : 1644937567727,
+    "duration" : 66793
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Malformed type for \"name\" parameter of command getElementAttribute\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-attribute\n                ",
+  "statusTrace" : "Error: Malformed type for \"name\" parameter of command getElementAttribute\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-attribute\n                \n                    at Element.protocolCommand (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async NewProductsScreen.getPrice (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\newProduct.screen.js:45:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Malformed type for \"name\" parameter of command getElementAttribute\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-attribute\n                ",
+    "statusTrace" : "Error: Malformed type for \"name\" parameter of command getElementAttribute\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-attribute\n                \n                    at Element.protocolCommand (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async NewProductsScreen.getPrice (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\newProduct.screen.js:45:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23130c4c48f53202",
+      "name" : "Execution video",
+      "source" : "23130c4c48f53202.mp4",
+      "type" : "video/mp4",
+      "size" : 1313959
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5dae839fe176ec18.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}

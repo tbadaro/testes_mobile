@@ -1,0 +1,80 @@
+{
+  "uid" : "2a74174ea93780e2",
+  "name" : "should register a new product",
+  "fullName" : "Resgistering a new product.should register a new product",
+  "historyId" : "26c11959ab11e6fe6deb304dc9e5eeac",
+  "time" : {
+    "start" : 1644464883834,
+    "stop" : 1644464904608,
+    "duration" : 20774
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"~Products\") still not existing after 20000ms",
+  "statusTrace" : "Error: element (\"~Products\") still not existing after 20000ms\n                    at C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async StoreScreen.goToProducts (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\store.screen.js:15:9)\n                    at async Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadProduto.spec.js:20:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"~Products\") still not existing after 20000ms",
+    "statusTrace" : "Error: element (\"~Products\") still not existing after 20000ms\n                    at C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async StoreScreen.goToProducts (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\store.screen.js:15:9)\n                    at async Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadProduto.spec.js:20:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7586b12a8dbea2db",
+      "name" : "Execution video",
+      "source" : "7586b12a8dbea2db.mp4",
+      "type" : "video/mp4",
+      "size" : 14974
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "testClass",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a74174ea93780e2.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}

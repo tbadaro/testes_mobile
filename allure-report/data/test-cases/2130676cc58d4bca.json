@@ -1,0 +1,80 @@
+{
+  "uid" : "2130676cc58d4bca",
+  "name" : "should register a new product",
+  "fullName" : "Access Admin Panel.should register a new product",
+  "historyId" : "1fe6037065f76ca8e4c960db29cf177a",
+  "time" : {
+    "start" : 1644903079086,
+    "stop" : 1644903163787,
+    "duration" : 84701
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Regular price: R$120,00·\n                 Sale price: R$40,00·\n                 Sale dates:\"\n                Received string:    \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Regular price: R$120,00·\n                 Sale price: R$40,00·\n                 Sale dates:\"\n                Received string:    \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadastro.spec.js:54:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Regular price: R$120,00·\n                 Sale price: R$40,00·\n                 Sale dates:\"\n                Received string:    \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Regular price: R$120,00·\n                 Sale price: R$40,00·\n                 Sale dates:\"\n                Received string:    \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadastro.spec.js:54:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "926f2442dded57e1",
+      "name" : "Execution video",
+      "source" : "926f2442dded57e1.mp4",
+      "type" : "video/mp4",
+      "size" : 524336
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "samsung galaxy s20 plus-10.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2130676cc58d4bca.json",
+  "parameterValues" : [ "samsung galaxy s20 plus-10.0" ]
+}

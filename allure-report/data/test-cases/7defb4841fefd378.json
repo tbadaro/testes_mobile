@@ -1,0 +1,80 @@
+{
+  "uid" : "7defb4841fefd378",
+  "name" : "should login with valid credentials",
+  "fullName" : "Access Admin Panel.should login with valid credentials",
+  "historyId" : "953be6edc00131250e97b7fb1eadb36b",
+  "time" : {
+    "start" : 1644562747247,
+    "stop" : 1644562807785,
+    "duration" : 60538
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Invalid CSS selector 'UiSelector().className(\"android.widget.Switch\").text(\"Manage stock OFF\")'. Reason: 'Error: Rule expected but \"(\" found.'",
+  "statusTrace" : "InvalidSelectorError: Invalid CSS selector 'UiSelector().className(\"android.widget.Switch\").text(\"Manage stock OFF\")'. Reason: 'Error: Rule expected but \"(\" found.'\n                    at Object.toUiAutomatorSelector (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\lib\\css-converter.js:311:11)\n                    at AndroidUiautomator2Driver.doFindElementOrEls (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\lib\\commands\\find.js:27:36)\n                    at condFn (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:36:28)\n                    at condFn (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:151:18)\n                    at spin (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\asyncbox\\lib\\asyncbox.js:138:26)\n                    at waitForCondition (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\asyncbox\\lib\\asyncbox.js:155:16)\n                    at AndroidUiautomator2Driver.implicitWaitForCondition (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:153:16)\n                    at AndroidUiautomator2Driver.findElOrEls (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:60:16)\n                    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:23)\n                    at AndroidUiautomator2Driver.findElement (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:21)\n                    at commandExecutor (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n                    at C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n                    at AsyncLock._promiseTry (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n                    at exec (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n                    at AsyncLock.acquire (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n                    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n                    at AppiumDriver.executeCommand (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at asyncHandler (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Invalid CSS selector 'UiSelector().className(\"android.widget.Switch\").text(\"Manage stock OFF\")'. Reason: 'Error: Rule expected but \"(\" found.'",
+    "statusTrace" : "InvalidSelectorError: Invalid CSS selector 'UiSelector().className(\"android.widget.Switch\").text(\"Manage stock OFF\")'. Reason: 'Error: Rule expected but \"(\" found.'\n                    at Object.toUiAutomatorSelector (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\lib\\css-converter.js:311:11)\n                    at AndroidUiautomator2Driver.doFindElementOrEls (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\lib\\commands\\find.js:27:36)\n                    at condFn (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:36:28)\n                    at condFn (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:151:18)\n                    at spin (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\asyncbox\\lib\\asyncbox.js:138:26)\n                    at waitForCondition (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\asyncbox\\lib\\asyncbox.js:155:16)\n                    at AndroidUiautomator2Driver.implicitWaitForCondition (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\timeout.js:153:16)\n                    at AndroidUiautomator2Driver.findElOrEls (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:60:16)\n                    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:23)\n                    at AndroidUiautomator2Driver.findElement (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:21)\n                    at commandExecutor (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:335:9)\n                    at C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:146:12\n                    at AsyncLock._promiseTry (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:280:31)\n                    at exec (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:145:9)\n                    at AsyncLock.acquire (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:162:3)\n                    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:348:39)\n                    at AppiumDriver.executeCommand (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\lib\\appium.js:563:36)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at asyncHandler (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6a814bae459527e6",
+      "name" : "Execution video",
+      "source" : "6a814bae459527e6.mp4",
+      "type" : "video/mp4",
+      "size" : 524336
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7defb4841fefd378.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}

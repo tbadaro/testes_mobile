@@ -1,0 +1,193 @@
+{
+  "uid" : "fd5469be58e9b469",
+  "name" : "should register a new product",
+  "fullName" : "Access Admin Panel.should register a new product",
+  "historyId" : "48a61d31c49333be3717fb8335a32d32",
+  "time" : {
+    "start" : 1644939722392,
+    "stop" : 1644939788199,
+    "duration" : 65807
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "14ee996b206947b8",
+      "status" : "failed",
+      "statusDetails" : "expect(Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022).toContain(/Regular price: R$120,00 Sale price: R$40,00 Sale dates:/) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  regexp\n                Expected has value: /Regular price: R$120,00 Sale price: R$40,00 Sale dates:/\n                Received has type:  string\n                Received has value: \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"",
+      "time" : {
+        "start" : 1644939152738,
+        "stop" : 1644939218303,
+        "duration" : 65565
+      }
+    }, {
+      "uid" : "4eb0ab01ba392d06",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Regular price: R$120,00·\n                Sale price: R$40,00·\n                Sale dates:\"\n                Received string:    \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"",
+      "time" : {
+        "start" : 1644938616973,
+        "stop" : 1644938683507,
+        "duration" : 66534
+      }
+    }, {
+      "uid" : "903bceb831e9224f",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644938548945,
+        "stop" : 1644938584034,
+        "duration" : 35089
+      }
+    }, {
+      "uid" : "5e08e026be9a9b7d",
+      "status" : "broken",
+      "statusDetails" : "elem[prop] is not a function",
+      "time" : {
+        "start" : 1644938362072,
+        "stop" : 1644938428671,
+        "duration" : 66599
+      }
+    }, {
+      "uid" : "d0f578260369d76c",
+      "status" : "failed",
+      "statusDetails" : "Expect Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022 to have property value containing\n                \n                Expected: \"Regular price: R$120,00 Sale price: R$40,00 Sale dates:\"\n                Received: undefined",
+      "time" : {
+        "start" : 1644937969518,
+        "stop" : 1644938038086,
+        "duration" : 68568
+      }
+    }, {
+      "uid" : "9ca2d67e4c63a41f",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644937902637,
+        "stop" : 1644937936578,
+        "duration" : 33941
+      }
+    }, {
+      "uid" : "3e471e036fa5257",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644937827600,
+        "stop" : 1644937863054,
+        "duration" : 35454
+      }
+    }, {
+      "uid" : "5dae839fe176ec18",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"name\" parameter of command getElementAttribute\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-attribute\n                ",
+      "time" : {
+        "start" : 1644937500934,
+        "stop" : 1644937567727,
+        "duration" : 66793
+      }
+    }, {
+      "uid" : "481f92e6397535e7",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644937424214,
+        "stop" : 1644937458844,
+        "duration" : 34630
+      }
+    }, {
+      "uid" : "d5814d82dc1f2628",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"name\" parameter of command getElementAttribute\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-element-attribute\n                ",
+      "time" : {
+        "start" : 1644937034362,
+        "stop" : 1644937100939,
+        "duration" : 66577
+      }
+    }, {
+      "uid" : "45471ea92c62edba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644936782115,
+        "stop" : 1644936851640,
+        "duration" : 69525
+      }
+    }, {
+      "uid" : "80f16539a77b34e9",
+      "status" : "broken",
+      "statusDetails" : "element (\"android=new UiSelector().text(\"Password\")\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1644936365281,
+        "stop" : 1644936400040,
+        "duration" : 34759
+      }
+    }, {
+      "uid" : "ee10b04dfa72b97e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644900143695,
+        "stop" : 1644900209316,
+        "duration" : 65621
+      }
+    }, {
+      "uid" : "d0bb26f6d96c2c1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644899939401,
+        "stop" : 1644900005168,
+        "duration" : 65767
+      }
+    }, {
+      "uid" : "b93f38156c82610",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644896735341,
+        "stop" : 1644896801015,
+        "duration" : 65674
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd5469be58e9b469.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}

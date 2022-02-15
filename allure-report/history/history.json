@@ -1,0 +1,99 @@
+{
+  "1fe6037065f76ca8e4c960db29cf177a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7412a313869efef6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939925089,
+        "stop" : 1644940014918,
+        "duration" : 89829
+      }
+    } ]
+  },
+  "3ffecdf02786cc03fb4362403888cae4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2f1066371f1a716",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForExist' of undefined",
+      "time" : {
+        "start" : 1644883724414,
+        "stop" : 1644883808664,
+        "duration" : 84250
+      }
+    } ]
+  },
+  "48a61d31c49333be3717fb8335a32d32" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd5469be58e9b469",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939722392,
+        "stop" : 1644939788199,
+        "duration" : 65807
+      }
+    } ]
+  },
+  "26c11959ab11e6fe6deb304dc9e5eeac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fbab36ae4a7d0f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644539399028,
+        "stop" : 1644539431434,
+        "duration" : 32406
+      }
+    } ]
+  },
+  "953be6edc00131250e97b7fb1eadb36b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fee78ec57607241e",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up",
+      "time" : {
+        "start" : 1644888755667,
+        "stop" : 1644888777005,
+        "duration" : 21338
+      }
+    } ]
+  }
+}

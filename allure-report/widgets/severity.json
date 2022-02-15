@@ -1,0 +1,51 @@
+[ {
+  "uid" : "fee78ec57607241e",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1644888755667,
+    "stop" : 1644888777005,
+    "duration" : 21338
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b2f1066371f1a716",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1644883724414,
+    "stop" : 1644883808664,
+    "duration" : 84250
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7412a313869efef6",
+  "name" : "should register a new product",
+  "time" : {
+    "start" : 1644939925089,
+    "stop" : 1644940014918,
+    "duration" : 89829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbab36ae4a7d0f0e",
+  "name" : "should register a new product",
+  "time" : {
+    "start" : 1644539399028,
+    "stop" : 1644539431434,
+    "duration" : 32406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd5469be58e9b469",
+  "name" : "should register a new product",
+  "time" : {
+    "start" : 1644939722392,
+    "stop" : 1644939788199,
+    "duration" : 65807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

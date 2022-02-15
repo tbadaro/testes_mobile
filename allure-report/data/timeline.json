@@ -1,0 +1,1356 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should register a new product",
+      "uid" : "eadf95eaed0dec0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644902025963,
+        "stop" : 1644902113255,
+        "duration" : 87292
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "6153de8a90964422",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464453624,
+        "stop" : 1644464459431,
+        "duration" : 5807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "d0bb26f6d96c2c1c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644899939401,
+        "stop" : 1644900005168,
+        "duration" : 65767
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "481f92e6397535e7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644937424214,
+        "stop" : 1644937458844,
+        "duration" : 34630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "2764cd76565b72ce",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644294728846,
+        "stop" : 1644294756014,
+        "duration" : 27168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "96a5e6f1e87dc49c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644884083337,
+        "stop" : 1644884148019,
+        "duration" : 64682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "be677a2f34d21c93",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644882509990,
+        "stop" : 1644882592167,
+        "duration" : 82177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ef05f870eaab5d21",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644552020544,
+        "stop" : 1644552055799,
+        "duration" : 35255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "cc42c515944a552d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644294518723,
+        "stop" : 1644294545465,
+        "duration" : 26742
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b2f1066371f1a716",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644883724414,
+        "stop" : 1644883808664,
+        "duration" : 84250
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f9ca98c3e6df30d4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644348105313,
+        "stop" : 1644348132174,
+        "duration" : 26861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "7412a313869efef6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939925089,
+        "stop" : 1644940014918,
+        "duration" : 89829
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "3ced84afd9363004",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644540829411,
+        "stop" : 1644540864847,
+        "duration" : 35436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "80f16539a77b34e9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644936365281,
+        "stop" : 1644936400040,
+        "duration" : 34759
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "7ed15bb4a1288b1a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644541140495,
+        "stop" : 1644541174978,
+        "duration" : 34483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f9e2222735901290",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644545976793,
+        "stop" : 1644546013212,
+        "duration" : 36419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "3e471e036fa5257",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644937827600,
+        "stop" : 1644937863054,
+        "duration" : 35454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "616e81cddd877865",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644884538903,
+        "stop" : 1644884605027,
+        "duration" : 66124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "b413c43f361d4365",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644465136919,
+        "stop" : 1644465142717,
+        "duration" : 5798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "cd9afec947c7c4cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644603406620,
+        "stop" : 1644603473681,
+        "duration" : 67061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "fa80dbcc6ce228b6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644545922717,
+        "stop" : 1644545958040,
+        "duration" : 35323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "79738e9f833fc8b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644554051692,
+        "stop" : 1644554098228,
+        "duration" : 46536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "beaa3f871757c657",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644554222859,
+        "stop" : 1644554268762,
+        "duration" : 45903
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "45471ea92c62edba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644936782115,
+        "stop" : 1644936851640,
+        "duration" : 69525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "784eb698151d1502",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644563010556,
+        "stop" : 1644563070505,
+        "duration" : 59949
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "b93f38156c82610",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644896735341,
+        "stop" : 1644896801015,
+        "duration" : 65674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "da0cdab90d6196ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644552139671,
+        "stop" : 1644552190464,
+        "duration" : 50793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "2130676cc58d4bca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644903079086,
+        "stop" : 1644903163787,
+        "duration" : 84701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "796acd5a49529487",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644348187935,
+        "stop" : 1644348222918,
+        "duration" : 34983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "667ad4070375f7ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644900794063,
+        "stop" : 1644900877953,
+        "duration" : 83890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "c76c68180b8d557",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644563212880,
+        "stop" : 1644563276016,
+        "duration" : 63136
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "f9b35727b8d97be0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464937500,
+        "stop" : 1644464938314,
+        "duration" : 814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "7defb4841fefd378",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644562747247,
+        "stop" : 1644562807785,
+        "duration" : 60538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b853a37e042eb303",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644551279739,
+        "stop" : 1644551323226,
+        "duration" : 43487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "d0f578260369d76c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644937969518,
+        "stop" : 1644938038086,
+        "duration" : 68568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "fee78ec57607241e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644888755667,
+        "stop" : 1644888777005,
+        "duration" : 21338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 45,
+      "retriesStatusChange" : true,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "adda085693ec2f1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644901605119,
+        "stop" : 1644901695381,
+        "duration" : 90262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "7f826a2738a60a94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644294222979,
+        "stop" : 1644294248697,
+        "duration" : 25718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "11e3c7e71841156d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644552113584,
+        "stop" : 1644552122882,
+        "duration" : 9298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "9ca2d67e4c63a41f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644937902637,
+        "stop" : 1644937936578,
+        "duration" : 33941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "88fe0cddaaa7cb16",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644885722952,
+        "stop" : 1644885788453,
+        "duration" : 65501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "aadc205f238bdf12",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552476799,
+        "stop" : 1644552523460,
+        "duration" : 46661
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "a8c9e7ee987b1350",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464120201,
+        "stop" : 1644464150934,
+        "duration" : 30733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "14ee996b206947b8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644939152738,
+        "stop" : 1644939218303,
+        "duration" : 65565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "8f8577eb5771be3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644554809912,
+        "stop" : 1644554860444,
+        "duration" : 50532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "873632ddebe96a8b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644380580914,
+        "stop" : 1644380607672,
+        "duration" : 26758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "342a0a618af7aa10",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644900393273,
+        "stop" : 1644900490598,
+        "duration" : 97325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "9627fb3c2d6645e9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644348360570,
+        "stop" : 1644348395700,
+        "duration" : 35130
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "903bceb831e9224f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644938548945,
+        "stop" : 1644938584034,
+        "duration" : 35089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "36ae55ed6606b4b9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644348936561,
+        "stop" : 1644348963066,
+        "duration" : 26505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "5dae839fe176ec18",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644937500934,
+        "stop" : 1644937567727,
+        "duration" : 66793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "ee10b04dfa72b97e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644900143695,
+        "stop" : 1644900209316,
+        "duration" : 65621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "fbab36ae4a7d0f0e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644539399028,
+        "stop" : 1644539431434,
+        "duration" : 32406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ac3595a8deb412e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644555881227,
+        "stop" : 1644555940552,
+        "duration" : 59325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "4eb0ab01ba392d06",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644938616973,
+        "stop" : 1644938683507,
+        "duration" : 66534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "8761040ae11f2fd6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644901847291,
+        "stop" : 1644901935567,
+        "duration" : 88276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "5e08e026be9a9b7d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644938362072,
+        "stop" : 1644938428671,
+        "duration" : 66599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "bf50661c0b323965",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644563948179,
+        "stop" : 1644564013778,
+        "duration" : 65599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "1047ce0f35883915",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644539534579,
+        "stop" : 1644539586869,
+        "duration" : 52290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ff0035a714b5f825",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644884934766,
+        "stop" : 1644884999131,
+        "duration" : 64365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "d5814d82dc1f2628",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644937034362,
+        "stop" : 1644937100939,
+        "duration" : 66577
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ac2883d32844985d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464051418,
+        "stop" : 1644464052350,
+        "duration" : 932
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "8099e02ba7241497",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644453857854,
+        "stop" : 1644453885140,
+        "duration" : 27286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b83733ce6a666d48",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644379816813,
+        "stop" : 1644379843893,
+        "duration" : 27080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "fd5469be58e9b469",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939722392,
+        "stop" : 1644939788199,
+        "duration" : 65807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "9f2327ef1acd90eb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644554935627,
+        "stop" : 1644554993148,
+        "duration" : 57521
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "ba93dd22945d2c2e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644902298206,
+        "stop" : 1644902382818,
+        "duration" : 84612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "2a74174ea93780e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464883834,
+        "stop" : 1644464904608,
+        "duration" : 20774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "431ef8520b27f0fa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644293585262,
+        "stop" : 1644293611026,
+        "duration" : 25764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "991d5017ed8930cb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644903543822,
+        "stop" : 1644903628710,
+        "duration" : 84888
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b76746cb9e309d68",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644554171130,
+        "stop" : 1644554206936,
+        "duration" : 35806
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b10732e11b99796a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644563364785,
+        "stop" : 1644563441543,
+        "duration" : 76758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "cdd983fa05ab6d95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644552379383,
+        "stop" : 1644552430805,
+        "duration" : 51422
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "f93ce0fe58d8756",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464875830,
+        "stop" : 1644464881604,
+        "duration" : 5774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "9ca21ffc3822c7cf",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644465144972,
+        "stop" : 1644465174151,
+        "duration" : 29179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "a02c82ce5dcfa75f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644463832157,
+        "stop" : 1644463837980,
+        "duration" : 5823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "52e96a82e8412f0f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464461529,
+        "stop" : 1644464488312,
+        "duration" : 26783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "eaa324637ad650f2",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644539391002,
+        "stop" : 1644539396806,
+        "duration" : 5804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "28ab44e0f62a305a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464112288,
+        "stop" : 1644464117890,
+        "duration" : 5602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  } ]
+}

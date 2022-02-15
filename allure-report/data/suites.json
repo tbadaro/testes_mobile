@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Resgistering a new product",
+    "children" : [ {
+      "name" : "should register a new product",
+      "uid" : "fbab36ae4a7d0f0e",
+      "parentUid" : "e45157d2d026accf079cc9a69d82dc9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644539399028,
+        "stop" : 1644539431434,
+        "duration" : 32406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    } ],
+    "uid" : "e45157d2d026accf079cc9a69d82dc9b"
+  }, {
+    "name" : "Access Admin Panel",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "b2f1066371f1a716",
+      "parentUid" : "dea900122a52b210400ed9e200bc2fc9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644883724414,
+        "stop" : 1644883808664,
+        "duration" : 84250
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "fee78ec57607241e",
+      "parentUid" : "dea900122a52b210400ed9e200bc2fc9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644888755667,
+        "stop" : 1644888777005,
+        "duration" : 21338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 45,
+      "retriesStatusChange" : true,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "fd5469be58e9b469",
+      "parentUid" : "dea900122a52b210400ed9e200bc2fc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939722392,
+        "stop" : 1644939788199,
+        "duration" : 65807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+    }, {
+      "name" : "should register a new product",
+      "uid" : "7412a313869efef6",
+      "parentUid" : "dea900122a52b210400ed9e200bc2fc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644939925089,
+        "stop" : 1644940014918,
+        "duration" : 89829
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+    } ],
+    "uid" : "dea900122a52b210400ed9e200bc2fc9"
+  } ]
+}

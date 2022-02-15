@@ -1,0 +1,80 @@
+{
+  "uid" : "96a5e6f1e87dc49c",
+  "name" : "should login with valid credentials",
+  "fullName" : "Access Admin Panel.should login with valid credentials",
+  "historyId" : "953be6edc00131250e97b7fb1eadb36b",
+  "time" : {
+    "start" : 1644884083337,
+    "stop" : 1644884148019,
+    "duration" : 64682
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'waitForExist' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'waitForExist' of undefined\n                    at ProductsScreen.shippingSettings (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\newProduct.screen.js:66:36)\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\login.spec.js:50:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'waitForExist' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'waitForExist' of undefined\n                    at ProductsScreen.shippingSettings (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\newProduct.screen.js:66:36)\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\login.spec.js:50:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "704fa7b9fee43afe",
+      "name" : "Execution video",
+      "source" : "704fa7b9fee43afe.mp4",
+      "type" : "video/mp4",
+      "size" : 175
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96a5e6f1e87dc49c.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}

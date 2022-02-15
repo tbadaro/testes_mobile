@@ -1,0 +1,80 @@
+{
+  "uid" : "8761040ae11f2fd6",
+  "name" : "should register a new product",
+  "fullName" : "Access Admin Panel.should register a new product",
+  "historyId" : "1fe6037065f76ca8e4c960db29cf177a",
+  "time" : {
+    "start" : 1644901847291,
+    "stop" : 1644901935567,
+    "duration" : 88276
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect Test Product to have text\n                \n                Expected: \"Test Product\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect Test Product to have text\n                \n                Expected: \"Test Product\"\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadastro.spec.js:51:64)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect Test Product to have text\n                \n                Expected: \"Test Product\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect Test Product to have text\n                \n                Expected: \"Test Product\"\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadastro.spec.js:51:64)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d6fb271b0ea36f2c",
+      "name" : "Execution video",
+      "source" : "d6fb271b0ea36f2c.mp4",
+      "type" : "video/mp4",
+      "size" : 524336
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "samsung galaxy s20 plus-10.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8761040ae11f2fd6.json",
+  "parameterValues" : [ "samsung galaxy s20 plus-10.0" ]
+}

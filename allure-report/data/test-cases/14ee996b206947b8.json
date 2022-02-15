@@ -1,0 +1,80 @@
+{
+  "uid" : "14ee996b206947b8",
+  "name" : "should register a new product",
+  "fullName" : "Access Admin Panel.should register a new product",
+  "historyId" : "48a61d31c49333be3717fb8335a32d32",
+  "time" : {
+    "start" : 1644939152738,
+    "stop" : 1644939218303,
+    "duration" : 65565
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022).toContain(/Regular price: R$120,00 Sale price: R$40,00 Sale dates:/) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  regexp\n                Expected has value: /Regular price: R$120,00 Sale price: R$40,00 Sale dates:/\n                Received has type:  string\n                Received has value: \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"",
+  "statusTrace" : "Error: expect(Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022).toContain(/Regular price: R$120,00 Sale price: R$40,00 Sale dates:/) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  regexp\n                Expected has value: /Regular price: R$120,00 Sale price: R$40,00 Sale dates:/\n                Received has type:  string\n                Received has value: \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadastro.spec.js:56:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022).toContain(/Regular price: R$120,00 Sale price: R$40,00 Sale dates:/) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  regexp\n                Expected has value: /Regular price: R$120,00 Sale price: R$40,00 Sale dates:/\n                Received has type:  string\n                Received has value: \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"",
+    "statusTrace" : "Error: expect(Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022).toContain(/Regular price: R$120,00 Sale price: R$40,00 Sale dates:/) // indexOf\n                \n                Matcher error: expected value must be a string if received value is a string\n                \n                Expected has type:  regexp\n                Expected has value: /Regular price: R$120,00 Sale price: R$40,00 Sale dates:/\n                Received has type:  string\n                Received has value: \"Regular price: R$120,00\n                Sale price: R$40,00\n                Sale dates: Mar 12 - Mar 18, 2022\"\n                    at Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadastro.spec.js:56:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f76ad81f544ca863",
+      "name" : "Execution video",
+      "source" : "f76ad81f544ca863.mp4",
+      "type" : "video/mp4",
+      "size" : 1231127
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Access Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14ee996b206947b8.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}

@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot read property 'waitForExist' of undefined",
+      "children" : [ {
+        "name" : "should login with valid credentials",
+        "uid" : "b2f1066371f1a716",
+        "parentUid" : "2d31ab76ef87a64ac5baa3ffd2458d9e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644883724414,
+          "stop" : 1644883808664,
+          "duration" : 84250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "samsung galaxy s20 plus-10.0" ]
+      } ],
+      "uid" : "2d31ab76ef87a64ac5baa3ffd2458d9e"
+    }, {
+      "name" : "An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up",
+      "children" : [ {
+        "name" : "should login with valid credentials",
+        "uid" : "fee78ec57607241e",
+        "parentUid" : "c1c3431ecdb46790f5aa51a22b95ba7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644888755667,
+          "stop" : 1644888777005,
+          "duration" : 21338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 45,
+        "retriesStatusChange" : true,
+        "parameters" : [ "ebac-qe 8.1-8.1.0" ]
+      } ],
+      "uid" : "c1c3431ecdb46790f5aa51a22b95ba7b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "b413c43f361d4365",
+  "name" : "should register a new product",
+  "fullName" : "Resgistering a new product.should register a new product",
+  "historyId" : "26c11959ab11e6fe6deb304dc9e5eeac",
+  "time" : {
+    "start" : 1644465136919,
+    "stop" : 1644465142717,
+    "duration" : 5798
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found",
+  "statusTrace" : "Error: Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found\n                    at implicitWait (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async LoginScreen.setStoreAddress (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\login.screen.js:10:9)\n                    at async Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadProduto.spec.js:13:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found",
+    "statusTrace" : "Error: Can't call setValue on element with selector \"android.widget.EditText\" because element wasn't found\n                    at implicitWait (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async LoginScreen.setStoreAddress (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\screens\\login.screen.js:10:9)\n                    at async Context.<anonymous> (C:\\Users\\tbarr\\OneDrive\\Documents\\dev\\EBAC\\testes_mobile\\test\\specs\\cadProduto.spec.js:13:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "48e6c7fc3c3598e6",
+      "name" : "Execution video",
+      "source" : "48e6c7fc3c3598e6.mp4",
+      "type" : "video/mp4",
+      "size" : 177
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "testClass",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register a new product"
+  }, {
+    "name" : "package",
+    "value" : "Resgistering a new product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-qe 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b413c43f361d4365.json",
+  "parameterValues" : [ "ebac-qe 8.1-8.1.0" ]
+}
