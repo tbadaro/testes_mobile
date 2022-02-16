@@ -3,8 +3,8 @@ const video = require('wdio-video-reporter')
 
 
 exports.config = {
-    user:  process.env.SECRET_id,
-    key: process.env.SECRET_key,
+    user:  process.env.SECRET_ID,
+    key: process.env.SECRET_KEY,
     services: ['browserstack'],
     specs: [
         './test/specs/**/*.js'            

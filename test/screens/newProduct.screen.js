@@ -8,7 +8,7 @@ class NewProductsScreen {
     get #priceText(){ return $('android= new UiSelector().className("android.widget.TextView").index(2).instance(0)')}
     get #inventoryButton(){ return $('android= new UiSelector().className("android.view.ViewGroup").index(2)')}
     get #inventoryText(){ return $('android= new UiSelector().className("android.widget.TextView").index(2).instance(1)')}
-    get #addMoreDetailsButton(){'android= new UiSelector().className("android.widget.Button").text("ADD MORE DETAILS")'}
+    
 
     // Nome do produto
     async setProductName(prodName){
