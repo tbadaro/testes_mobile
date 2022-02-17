@@ -13,14 +13,14 @@ class PriceScreen {
     get #taxClass(){ return $('android= new UiSelector().className("android.widget.EditText").text("Taxas padrões")')}
     get #zeroTax(){ return $('android= new UiSelector().className("android.widget.CheckedTextView").text("Taxa zero")')}
     get #back(){ return $('~Navigate up')}
+    get #priceButton(){ return $('android= new UiSelector().className("android.view.ViewGroup").index(0).instance(8)')}
 
-    async setPrice(regPrice, salePrice){
+    async setPriceAndSale(regPrice, salePrice){
+        await this.#priceButton.waitForExist({ timeout: 20000 })
+        await this.#priceButton.click()
         await this.#regularPrice.waitForExist({ timeout: 20000 })
         await this.#regularPrice.setValue(regPrice)
         await this.#salePrice.setValue(salePrice)
-        
-    }
-    async scheduleSale(){
         await this.#scheduleSaleSwitch.click()
         await this.#from.waitForExist({timeout: 2000})
         await this.#from.click()
@@ -36,8 +36,6 @@ class PriceScreen {
         await this.#dayEighteen.waitForExist({timeout: 2000})
         await this.#dayEighteen.click()
         await this.#confirm.click()
-    }
-    async defineTaxSettings(){
         await this.#taxStatus.waitForExist({timeout: 2000})
         await this.#taxStatus.click()
         await this.#shipping.waitForExist({timeout: 2000})
@@ -46,8 +44,6 @@ class PriceScreen {
         await this.#taxClass.click()
         await this.#zeroTax.waitForExist({timeout: 2000})
         await this.#zeroTax.click()
-    }
-    async returToNewProduct(){
         await this.#back.waitForExist({timeout: 2000})
         await this.#back.click()
     }

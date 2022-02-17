@@ -1,11 +1,8 @@
-const homeScreen = require("../screens/home.screen");
 const loginScreen = require("../screens/login.screen");
 const storeScreen = require("../screens/store.screen");
-const productsScreen = require("../screens/products.screen");
 const newProductScreen = require("../screens/newProduct.screen");
 const priceScreen = require("../screens/price.screen");
 const inventoryScreen = require("../screens/inventory.screen");
-const { join } = require('path');
 
 let usuario = 'gerente'
 let senha = 'GD*peToHNJ1#c$sgk08EaYJQ'
@@ -25,34 +22,15 @@ let inventoryText3 = 'Backorders: Do not allow'
 describe('Access Admin Panel', () => {
     it('should register a new product', async () => {
         //Login
-        await homeScreen.goToLogin()
-        await loginScreen.setStoreAddress(urlLoja)
-        await loginScreen.clickCredentials()
-        await loginScreen.login(usuario, senha)
-        await loginScreen.clickEnterPassword()
-        await loginScreen.enterPasword(senha)
-        
+        await loginScreen.login(urlLoja, usuario, senha)
         //Navegacao
-        await storeScreen.goToProducts()
-        await productsScreen.clickAddProduct()
-        await productsScreen.clickSimplePhysical()
-        //Nome
-        await newProductScreen.setProductName(prodName)
-        //Descricao
-        await newProductScreen.clickDescribe()
-        await newProductScreen.describreProduct(testDescription)        
+        await storeScreen.navigate()    
+        //Nome e descriçao
+        await newProductScreen.manageProduct(prodName, testDescription)       
         //preco
-        await newProductScreen.clickAddPrice()
-        await priceScreen.setPrice(regPrice, salePrice)
-        await priceScreen.scheduleSale()
-        await priceScreen.defineTaxSettings()
-        await priceScreen.returToNewProduct()       
+        await priceScreen.setPriceAndSale(regPrice, salePrice)    
         //inventorio
-        await newProductScreen.clickInventory()
-        await inventoryScreen.setSku(sku)
-        await inventoryScreen.manageStock(quantity)
-        await inventoryScreen.uncheckLimitPerOrder()
-        await inventoryScreen.returToNewProduct()
+        await inventoryScreen.manageInventory(sku, quantity)
         //Assercoes     
         await expect (await newProductScreen.getProductName()).toEqual(prodName)
         await expect (await newProductScreen.getDescription()).toEqual(testDescription)
